@@ -1,6 +1,8 @@
 /* import fonts for customization */
-/* @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap'); */
+/* header font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+/* paragraph font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300;400&display=swap');
 
 :root {
     /* calendar styles */
@@ -22,8 +24,8 @@
     --button-text: #333;
     --button-text-hover: #F5f5f5;
     /* fonts */
-    --heading-font: 'IM Fell Double Pica', serif;
-    --paragraph-font: 'Nunito Sans', sans-serif;
+    --heading-font: 'Montserrat', serif;
+    --paragraph-font: 'Open Sans', sans-serif;
     /* line clamp. change to -1 to stop clamping */
     --desc-line-clamp: 3;
 }
