@@ -1,7 +1,4 @@
 /* import fonts for customization */
-/* header font */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
-/* paragraph font */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300;400&display=swap');
 
 :root {
@@ -24,7 +21,7 @@
     --button-text: #333;
     --button-text-hover: #F5f5f5;
     /* fonts */
-    --heading-font: 'Montserrat', serif;
+    --heading-font: 'Merriweather', serif;
     --paragraph-font: 'Open Sans', sans-serif;
     /* line clamp. change to -1 to stop clamping */
     --desc-line-clamp: 3;
